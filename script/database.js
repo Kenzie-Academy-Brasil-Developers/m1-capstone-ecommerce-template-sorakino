@@ -4,7 +4,7 @@ const db = [
 
   {
     id: 1,
-    img: "../../img/card 1.jfif",
+    img: "./assets/img/card 1.jfif",
     nameItem: "Playstation 5 com 1TB",
     description:
       "Video-Game de ultima geração.",
@@ -15,7 +15,7 @@ const db = [
 
   {
     id: 2,
-    img: "./img/card 2.jpg",
+    img: "./assets/img/card 2.jpg",
     nameItem: "Xbox Serie X 2TB",
     description:
       "Video-Game de ultima geração.",
@@ -26,7 +26,7 @@ const db = [
 
   {
     id: 3,
-    img: "./img/card 3.jpg",
+    img: "./assets/img/card 3.jpg",
     nameItem: "Nintendo Switch",
     description:
       "Video-Game de ultima geração portatil",
@@ -37,7 +37,7 @@ const db = [
 
   {
     id: 4,
-    img: "./img/card 4.jpg",
+    img: "./assets/img/card 4.jpg",
     nameItem: "Nintendo 3ds XL",
     description:
       "Um Video-Game portatil.",
@@ -48,7 +48,7 @@ const db = [
 
   {
     id: 5,
-    img: "./img/card 5.jpg",
+    img: "./assets/img/card 5.jpg",
     nameItem: "Far Cry Primal Ps4",
     description:
       "Um jogo que conta a historia de um sobrevivente da era da pré-historia",
@@ -59,7 +59,7 @@ const db = [
 
   {
     id: 6,
-    img: "./img/card 6.jpeg",
+    img: "./assets/img/card 6.jpeg",
     nameItem: "Final Fantasy XV Xbox One",
     description:
       "A historia de um princípe, que precisa derrotar seu ancestral ",
@@ -70,7 +70,7 @@ const db = [
 
   {
     id: 7,
-    img: "./img/card 7.png",
+    img: "./assets/img/card 7.png",
     nameItem: "Kingdom Hearts 3 Xbox One",
     description:
       "Um jogo que trás personagens da disney e de final fantasy e conta uma historia original",
@@ -81,7 +81,7 @@ const db = [
 
   {
     id: 8,
-    img: "./img/card 8.png",
+    img: "./assets/img/card 8.png",
     nameItem: "Lego Indiana Jones PS3",
     description:
       "Um jogo lego que conta a historia de indiana jones",
@@ -92,7 +92,7 @@ const db = [
 
   {
     id: 9,
-    img: "./img/card 9.png",
+    img: "./assets/img/card 9.png",
     nameItem: "Oculos VR",
     description:
       "Oculos de Realidade Virtual Compatível com PC",
