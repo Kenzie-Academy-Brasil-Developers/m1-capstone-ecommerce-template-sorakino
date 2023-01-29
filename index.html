@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Final</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        
+        <div class="container">
+            <div class="logo">
+                <h2 class="nome-loja">TechGames</h2>
+            </div>
+            
+            <nav class="menuNavegacao">
+                
+                <ul>
+                    <li>
+                        <a onclick="preencherItens()" target="_blank">Todos</a>
+                    </li>
+                    <li>
+                        <a onclick="preencherItens('Acessórios')" target="_blank">Acessórios</a>
+                    </li>
+                    <li>
+                        <a onclick="preencherItens('Jogos')" target="_blank">Jogos</a>
+                    </li>
+                    <li>
+                        <a onclick="preencherItens('Video-Game')" target="_blank">Consoles</a>
+                    </li>
+                </ul>
+                
+            </nav>
+        </div>
+        
+        
+
+    </header>
+    
+    <main>
+        
+        <section class="secaoPost">
+            <div class="containerBody row">
+                
+                <ul id="lista-card" class="lista column">
+                    
+                </ul>
+                <div id="posicaocarrinho" class="column">
+                    <div class="row">
+                        <input type="text" id="myInput" placeholder="Pesquisar" title="Barra de pesquisa">
+                        <button onclick="pesquisar()" class="botaoPesquisar">Pesquisar</button>
+                    </div>
+                    <div class="carrinho">
+                        <p class="titulo">Carrinho de compras</p>
+                        <p class="carrinho_vazio">Carrinho vazio</p>
+                        <ul id="addCarrinho" class="scroll">
+                            
+                        </ul>
+                    </div>
+                    <div class="botaoCarrinho">
+                        <div class="row">
+                            <p class="quantidadeItens">Quantidade de itens:</p>
+                            <p id="quantidade">0</p>
+                        </div>
+                        <div class="row">
+                            <p class="quantidadeItens">Total:</p>
+                            <span id="preco">R$0</span>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+    </main>
+    
+    <script src="./js/database.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>

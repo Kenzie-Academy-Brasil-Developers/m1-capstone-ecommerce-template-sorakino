@@ -1,64 +1,105 @@
 // Banco de dados dos produtos
 
-const data = [
+const db = [
+
   {
     id: 1,
-    img: "../img/jaqueta.svg",
-    nameItem: "Lightweight Jacket",
+    img: "../../img/card 1.jfif",
+    nameItem: "Playstation 5 com 1TB",
     description:
-      "Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...",
-    value: 100,
+      "Video-Game de ultima geração.",
+    value: 4500,
     addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: ["Video-Game"],
   },
+
   {
     id: 2,
-    img: "../img/gorro.svg",
-    nameItem: "Black Hat",
+    img: "./img/card 2.jpg",
+    nameItem: "Xbox Serie X 2TB",
     description:
-      "O gorro Next.js chegou! Esta beldade bordada tem um ajuste confortável que garante que...",
-    value: 100,
+      "Video-Game de ultima geração.",
+    value: 4000,
     addCart: "Adicionar ao carrinho",
-    tag: ["Acessórios"],
+    tag: ["Video-Game"],
   },
+
   {
     id: 3,
-    img: "../img/mascara.svg",
-    nameItem: "Mask",
+    img: "./img/card 3.jpg",
+    nameItem: "Nintendo Switch",
     description:
-      "Esta máscara facial durável é feita de duas camadas de tecido tratado e possui presilhas...",
-    value: 40,
+      "Video-Game de ultima geração portatil",
+    value: 3000,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Video-Game"],
+  },
+
+  {
+    id: 4,
+    img: "./img/card 4.jpg",
+    nameItem: "Nintendo 3ds XL",
+    description:
+      "Um Video-Game portatil.",
+    value: 1800,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Video-Game"],
+  },
+
+  {
+    id: 5,
+    img: "./img/card 5.jpg",
+    nameItem: "Far Cry Primal Ps4",
+    description:
+      "Um jogo que conta a historia de um sobrevivente da era da pré-historia",
+    value: 149,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Jogos"],
+  },
+
+  {
+    id: 6,
+    img: "./img/card 6.jpeg",
+    nameItem: "Final Fantasy XV Xbox One",
+    description:
+      "A historia de um princípe, que precisa derrotar seu ancestral ",
+    value: 80,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Jogos"],
+  },
+
+  {
+    id: 7,
+    img: "./img/card 7.png",
+    nameItem: "Kingdom Hearts 3 Xbox One",
+    description:
+      "Um jogo que trás personagens da disney e de final fantasy e conta uma historia original",
+    value: 100,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Jogos"],
+  },
+
+  {
+    id: 8,
+    img: "./img/card 8.png",
+    nameItem: "Lego Indiana Jones PS3",
+    description:
+      "Um jogo lego que conta a historia de indiana jones",
+    value: 30,
+    addCart: "Adicionar ao carrinho",
+    tag: ["Jogos"],
+  },
+
+  {
+    id: 9,
+    img: "./img/card 9.png",
+    nameItem: "Oculos VR",
+    description:
+      "Oculos de Realidade Virtual Compatível com PC",
+    value: 400,
     addCart: "Adicionar ao carrinho",
     tag: ["Acessórios"],
   },
-  {
-    id: 4,
-    img: "../img/camiseta_preta.svg",
-    nameItem: "T-Shirt",
-    description:
-      "Esta t-shirt é imprescindível no seu guarda-roupa, combinando o caimento intemporal de...",
-    value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
-  },
-  {
-    id: 5,
-    img: "../img/camiseta_branca.svg",
-    nameItem: "Short-Sleeve T-Shirt",
-    description:
-      "Agora você encontrou a camiseta básica do seu guarda-roupa. É feito de um mais grosso...",
-    value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
-  },
-  {
-    id: 6,
-    img: "../img/moletom.svg",
-    nameItem: "Champion Packable Jacket",
-    description:
-      "Proteja-se dos elementos com esta jaqueta embalável Champion. Esta jaqueta de poliést...",
-    value: 100,
-    addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
-  },
+
 ];
+
